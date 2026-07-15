@@ -3,16 +3,15 @@
 **A Unified Framework from Maxwell–Jüttner to Non-Extensive Generalizations,
 with Thermodynamic Geometry and Bayesian Parameter Inference**
 
-[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21383736-blue)](https://doi.org/10.5281/zenodo.21383736)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 
 **Authors:** N. S. Akintsov, A. P. Nevecheria, S. N. Andreev, Qing-Hua Qin
 **Journal:** *Annals of Physics* (Elsevier), 2026
 
-> **Zenodo DOI is a placeholder.** `10.5281/zenodo.XXXXXXX` (badge and citation
-> below) must be replaced by the DOI minted when this repository is first
-> archived; the same DOI is cited in the article's reference list.
+> **Archived on Zenodo:** [`10.5281/zenodo.21383736`](https://doi.org/10.5281/zenodo.21383736)
+> (v1.0.0). The same DOI is cited in the article's reference list.
 
 ---
 
@@ -211,14 +210,13 @@ archived code release. Machine-readable metadata is in
   year      = {2026},
   version   = {1.0.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.21383736},
+  url       = {https://doi.org/10.5281/zenodo.21383736}
 }
 ```
 
-> Replace `10.5281/zenodo.XXXXXXX` with the DOI minted by Zenodo when the
-> repository is first archived (the same DOI appears in the article's reference
-> list and in the badge above).
+> This archive is deposited at [`10.5281/zenodo.21383736`](https://doi.org/10.5281/zenodo.21383736)
+> (v1.0.0); the same DOI appears in the article's reference list and in the badge above.
 
 ---
 

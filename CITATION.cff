@@ -6,7 +6,7 @@ version: 1.0.0
 date-released: "2026-07-15"
 license: MIT
 # Replace with the DOI minted by Zenodo on first archive of this repository.
-doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.21383736
 authors:
   - family-names: Akintsov
     given-names: N. S.
