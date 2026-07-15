@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software or its figures, please cite both the article and this archived code release."
+title: "Code and data for: Statistical Distributions for Relativistic Particles: A Unified Framework from Maxwell-Juttner to Non-Extensive Generalizations, with Thermodynamic Geometry and Bayesian Parameter Inference"
+type: software
+version: 1.0.0
+date-released: "2026-07-15"
+license: MIT
+# Replace with the DOI minted by Zenodo on first archive of this repository.
+doi: 10.5281/zenodo.XXXXXXX
+authors:
+  - family-names: Akintsov
+    given-names: N. S.
+    orcid: "https://orcid.org/0000-0002-1040-1292"
+  - family-names: Nevecheria
+    given-names: A. P.
+    orcid: "https://orcid.org/0000-0001-6736-4691"
+  - family-names: Andreev
+    given-names: S. N.
+    orcid: "https://orcid.org/0000-0003-3588-2894"
+  - family-names: Qin
+    given-names: Qing-Hua
+    orcid: "https://orcid.org/0000-0003-0948-784X"
+keywords:
+  - relativistic statistical mechanics
+  - Maxwell-Juttner distribution
+  - Tsallis statistics
+  - Kaniadakis statistics
+  - Bayesian inference
+  - thermodynamic geometry
+references:
+  - type: article
+    title: "Statistical Distributions for Relativistic Particles: A Unified Framework from Maxwell-Juttner to Non-Extensive Generalizations, with Thermodynamic Geometry and Bayesian Parameter Inference"
+    authors:
+      - family-names: Akintsov
+        given-names: N. S.
+      - family-names: Nevecheria
+        given-names: A. P.
+      - family-names: Andreev
+        given-names: S. N.
+      - family-names: Qin
+        given-names: Qing-Hua
+    journal: "Annals of Physics"
+    year: 2026

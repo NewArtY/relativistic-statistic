@@ -1,0 +1,28 @@
+# =============================================================================
+# requirements.txt
+# Code and data for: "Statistical Distributions for Relativistic Particles"
+# (Annals of Physics, Elsevier).
+#
+# These are the EXACT versions the repository was developed and TESTED against
+# (Python 3.13.2, Windows/CPU). Pinned for reproducibility of the archived
+# Zenodo release. On a fresh environment:
+#
+#     pip install -r requirements.txt
+#
+# Only packages actually imported by the scripts are listed (verified against
+# the source). The p_T-correlated Gaussian-process model-discrepancy term of the
+# BGBW likelihood and the eta/s(T) reproduction are implemented in pure
+# numpy/scipy (no scikit-learn); HEPData tables are fetched with the standard
+# library (urllib + json, no h5py).
+#
+# For the heavy runs (emcee MCMC -> Figs. 7 & 7b, Block C; PINN training ->
+# Fig. 12 / Block D) a free-GPU Kaggle Notebook is recommended; torch there may
+# resolve to a CUDA build instead of the CPU wheel below.
+# =============================================================================
+
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+emcee==3.1.6          # affine-invariant MCMC (Figs. 7 & 7b, Block C)
+corner==2.3.0         # corner-plot rendering (Fig. 7)
+torch==2.12.0         # PINN prototype (Fig. 12 / Block D). CPU wheel: 2.12.0+cpu

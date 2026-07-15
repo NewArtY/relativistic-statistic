@@ -1,0 +1,66 @@
+# =============================================================================
+# .gitignore
+# NOTE: figures/*.pdf and figures/*.png are DELIVERABLES -- they are NOT
+# ignored. Nothing under figures/ is excluded.
+# =============================================================================
+
+# ---- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+
+# ---- Virtual environments --------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Notebooks / tooling ---------------------------------------------------
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- LaTeX auxiliary (in case a build is run beside the code) --------------
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# ---- Secrets ---------------------------------------------------------------
+# Never commit the Kaggle API token or any credential.
+kaggle.json
+kaggle.txt
+.kaggle/
+
+# ---- Large data caches -----------------------------------------------------
+# Small provenance CSVs under data/ SHOULD be committed. Ignore only bulky
+# intermediate artefacts (raw MCMC chains, emulator dumps, HDF5 caches).
+data/**/*.h5
+data/**/*.hdf5
+data/**/cache/
+*.npz.cache
+chains/
+emulator_cache/
