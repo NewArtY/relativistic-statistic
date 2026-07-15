@@ -3,19 +3,20 @@
 **A Unified Framework from Maxwell–Jüttner to Non-Extensive Generalizations,
 with Thermodynamic Geometry and Bayesian Parameter Inference**
 
-[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21383736-blue)](https://doi.org/10.5281/zenodo.21383736)
+[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21383735-blue)](https://doi.org/10.5281/zenodo.21383735)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 
 **Authors:** N. S. Akintsov, A. P. Nevecheria, S. N. Andreev, Qing-Hua Qin
 **Journal:** *Annals of Physics* (Elsevier), 2026
 
-> **Archived on Zenodo:** [`10.5281/zenodo.21383736`](https://doi.org/10.5281/zenodo.21383736)
-> (v1.0.0). The same DOI is cited in the article's reference list.
+> **Archived on Zenodo:** [`10.5281/zenodo.21383735`](https://doi.org/10.5281/zenodo.21383735)
+> — this *concept* DOI always resolves to the latest release (currently v1.0.1).
+> It is the DOI cited in the article's reference list.
 
 ---
 
-## Overview
+## Overview 
 
 This repository contains all code, style definitions and cached numerical
 outputs needed to reproduce every figure and numerical result in the article. It
@@ -208,15 +209,16 @@ archived code release. Machine-readable metadata is in
                Non-Extensive Generalizations, with Thermodynamic Geometry and
                Bayesian Parameter Inference},
   year      = {2026},
-  version   = {1.0.0},
+  version   = {1.0.1},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.21383736},
-  url       = {https://doi.org/10.5281/zenodo.21383736}
+  doi       = {10.5281/zenodo.21383735},
+  url       = {https://doi.org/10.5281/zenodo.21383735}
 }
 ```
 
-> This archive is deposited at [`10.5281/zenodo.21383736`](https://doi.org/10.5281/zenodo.21383736)
-> (v1.0.0); the same DOI appears in the article's reference list and in the badge above.
+> This archive's *concept* DOI [`10.5281/zenodo.21383735`](https://doi.org/10.5281/zenodo.21383735)
+> always resolves to the latest release (currently v1.0.1); it is the DOI cited in the
+> article's reference list and shown in the badge above.
 
 ---
 
